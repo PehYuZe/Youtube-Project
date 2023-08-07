@@ -1,0 +1,263 @@
+.top-bar-css {
+    background-color: white;
+    margin: 0px;
+    height: 70px;
+    width: 100%;
+
+    border: 0px;
+    border-bottom-width: 1px;
+    border-color: grey;
+    border-style: solid;
+
+    position: fixed;
+    top: 0px;
+
+    font-size: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 3;
+}
+.youtube-logo-button-css {
+    background-color: white;
+    height: 100%;
+    width: 125px;
+
+    border-width: 2px;
+
+    padding: 0px;
+
+    cursor: pointer;
+    border-width: 0px;
+
+}
+.youtube-logo-css {
+    height: 70x;
+    width: 100px;
+
+    margin-left: 0px;
+}
+.hamburger-menu-button-css {
+    background-color: white;
+    height: 100%;
+    width: 70px;
+
+    cursor: pointer;
+
+    border-width: 0px;
+}
+.hamburger-menu-css {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+.search-bar-css {
+    height: 35px;
+    width: 280px;
+    font-size: 16px;
+
+    padding-left: 15px;
+
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.search-icon-css {
+    height: 24px;
+    width: 24px;
+}
+.search-icon-button-css {
+    background-color: rgb(216, 216, 216);
+    height: 39px;
+    width: 55px;
+
+    border-width: 0px;
+
+    padding-top: 5px;
+    padding-left: 7px;
+    margin-right: 10px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    position: relative;
+
+    cursor: pointer;
+}
+.voice-search-icon-css {
+    height: 25px;
+    width: 25px;
+}
+.search-icon-button-css .tooltip-css {
+    background-color: lightgrey;
+    opacity: 0;
+    padding: 5px 5px;
+
+    border-radius: 4px;
+
+    position: absolute;
+
+    bottom: -40px;
+    left: 0px;
+
+    pointer-events: none;
+    transition: opacity 0.25s;
+}
+.search-icon-button-css:hover .tooltip-css {
+    opacity: 0.9;
+}
+.voice-search-icon-button-css {
+    background-color: rgb(216, 216, 216);
+    height: 39px;
+    width: 39px;
+
+    padding: 0px;
+
+    border-radius: 100px;
+    border-width: 0px;
+
+    position: relative;
+
+    cursor: pointer;
+}
+.voice-search-icon-button-css .tooltip-css {
+    background-color: lightgrey;
+    width: 140px;
+
+    border-radius: 4px;
+
+    padding: 5px 5px;
+
+    position: absolute;
+    left: -45px;
+    bottom: -40px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: opacity 0.25s;
+}
+.voice-search-icon-button-css:hover .tooltip-css {
+    opacity: 0.9;
+}
+.upload-button-css {
+    /*background-color: lightblue;*/
+    background-color: white;
+    margin-right: 5px;
+
+    position: relative;
+    cursor: pointer;
+
+    border-width: 0px;
+}
+.upload-css {
+    height: 28px;
+    width: 28px;
+}
+.upload-button-css .tooltip-css{
+    background-color: lightgrey;
+    padding: 4px 4px;
+
+    border-radius: 4px;
+
+    position: absolute;
+    left: -2px;
+    bottom: -40px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: opacity 0.25s;
+}
+.upload-button-css:hover .tooltip-css {
+    opacity: 0.9;
+}
+.youtube-apps-button-css {
+    /*background-color: lightcoral;*/
+    background-color: white;
+    margin-right: 5px;
+
+    position: relative;
+    cursor: pointer;
+
+    border-width: 0px;
+}
+.youtube-apps-button-css .tooltip-css {
+    background-color: lightgray;
+    width: 100px;
+
+    margin: 0;
+    padding: 4px 0px;
+
+    border-radius: 4px;
+
+    position: absolute;
+    left: -20px;
+    bottom: -40px;
+
+    opacity: 0;
+
+    transition: opacity 0.25s;
+
+    pointer-events: none;
+}
+.youtube-apps-button-css:hover .tooltip-css {
+    opacity: 0.9;
+}
+.youtube-apps-css {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+.notifications-button-css {
+    background-color: red;
+    background-color: white;
+
+    position: relative;
+    cursor: pointer;
+
+    border-width: 0px;
+}
+.notifications-button-css .tooltip-css {
+    background-color: lightgrey;
+
+    padding: 4px 4px;
+
+    border-radius: 4px;
+
+    position: absolute;
+    left: -14px;
+    bottom: -40px;
+
+    opacity: 0;
+    transition: opacity 0.25s;
+
+    pointer-events: none;
+}
+.notifications-button-css:hover .tooltip-css {
+    opacity: 0.9;
+}
+.notifications-css {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+.profile-css {
+    background-color: salmon;
+
+    height: 32px;
+    width: 32px;
+
+    margin-left: 13px;
+    margin-bottom: 2px;
+
+    border-radius: 35px;
+
+    cursor: pointer;
+}

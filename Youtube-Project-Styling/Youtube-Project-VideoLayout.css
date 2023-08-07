@@ -1,0 +1,92 @@
+.video-layout-css {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 50px;
+
+    margin-top: 85px;
+    margin-left: 90px;
+    /*border only for initial laying out of website, delete once project is finished
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;*/
+}
+.video-box-css {
+    /*background-color: lightblue;*/
+    height: 270px;
+    width: 350px;
+    margin-bottom: 40px;
+
+    display: grid;
+    grid-template-rows: 180px 90px;
+
+    /*border only for initial laying out of website, delete once project is finished
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;*/
+    font-size: 30px;    
+}
+.thumbnail-css {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    cursor: pointer;
+
+    z-index: 1;
+}
+.video-time-css {
+    background-color: black;
+    color: white;
+
+    font-size: 16px;
+    padding: 1px 5px;
+
+    position: absolute;
+
+    bottom: 5px;
+    right: 8px;
+
+    border-radius: 5px;
+
+    z-index: 2;
+}
+.video-info-css {
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 70px 280px;
+}
+.channel-pic-css {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 30px;
+    margin-left: 5px;
+
+    cursor: pointer;
+}
+.video-stats-css {
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+.video-title-css {
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.video-author-css {
+    color: #606060;
+    font-size: 14px;
+
+    margin-top: 7px;
+
+    cursor: pointer;
+}
+.video-views-css {
+    color: #606060;
+    font-size: 14px;
+    margin-top: 2px;
+}

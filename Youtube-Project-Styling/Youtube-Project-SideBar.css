@@ -1,0 +1,77 @@
+.side-bar-css {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: white;
+    height: 100%;
+    width: 70px;
+    margin: 0px;
+
+    position: fixed;
+    top: 71px;
+
+    font-size: 20px;
+
+    border: 0px;
+    border-right: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+.side-bar-button-css {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 15px;
+
+    border-width: 0px;
+
+    cursor: pointer;
+    transition: 0.5ms;
+}
+.side-bar-button-css:hover {
+    background-color: rgb(216, 216, 216);
+}
+.home-css {
+    height: 23px;
+    width: 23px;
+
+    margin-bottom: 3px;
+}
+.explore-css {
+    height: 28px;
+    width: 28px;
+
+    margin-bottom: 3px;
+}
+.subscriptions-css {
+    height: 28px;
+    width: 28px;
+
+    margin-bottom: 3px;
+}
+.originals-css {
+    height: 31px;
+    width: 31px;
+
+    margin-bottom: 3px;
+}
+.youtube-music-css {
+    height: 30px;
+    width: 30px;
+
+    margin-bottom: 0px;
+}
+.library-css {
+    height: 28px;
+    width: 28px;
+
+    margin-bottom: 3px;
+}
